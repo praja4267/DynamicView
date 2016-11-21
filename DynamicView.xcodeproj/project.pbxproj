@@ -67,9 +67,7 @@
 				7BE7A3671DE2BC6500190231 /* AppDelegate.swift */,
 				7BE7A3691DE2BC6500190231 /* ViewController.swift */,
 				7BE7A37C1DE2BD7000190231 /* AddViewController.swift */,
-				7BE7A3801DE2F59500190231 /* TextFieldTableViewCell.swift */,
-				7BE7A3821DE2F5AE00190231 /* TextViewTableViewCell.swift */,
-				7BE7A3841DE2F5C700190231 /* LabelTableViewCell.swift */,
+				7BE7A3861DE32F8F00190231 /* View */,
 				7BE7A36B1DE2BC6500190231 /* Main.storyboard */,
 				7BE7A3711DE2BC6500190231 /* Assets.xcassets */,
 				7BE7A3731DE2BC6500190231 /* LaunchScreen.storyboard */,
@@ -77,6 +75,16 @@
 				7BE7A36E1DE2BC6500190231 /* DynamicView.xcdatamodeld */,
 			);
 			path = DynamicView;
+			sourceTree = "<group>";
+		};
+		7BE7A3861DE32F8F00190231 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BE7A3801DE2F59500190231 /* TextFieldTableViewCell.swift */,
+				7BE7A3821DE2F5AE00190231 /* TextViewTableViewCell.swift */,
+				7BE7A3841DE2F5C700190231 /* LabelTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
