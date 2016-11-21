@@ -1,0 +1,8 @@
+{
+    [
+     {'field-name':'name', 'type':'text',"unique_id":1},
+     {'field-name':'age', 'type':'number',"unique_id":2},
+     {'field-name':'gender', 'type':dropdown', 'options':['male', 'female', 'other'],"unique_id":3},
+     {'field-name':'address', 'type':'multiline',"unique_id":4}
+     ]
+}

@@ -13,6 +13,10 @@
 		7BE7A3701DE2BC6500190231 /* DynamicView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A36E1DE2BC6500190231 /* DynamicView.xcdatamodeld */; };
 		7BE7A3721DE2BC6500190231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7A3711DE2BC6500190231 /* Assets.xcassets */; };
 		7BE7A3751DE2BC6500190231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7A3731DE2BC6500190231 /* LaunchScreen.storyboard */; };
+		7BE7A37D1DE2BD7000190231 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A37C1DE2BD7000190231 /* AddViewController.swift */; };
+		7BE7A3811DE2F59500190231 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A3801DE2F59500190231 /* TextFieldTableViewCell.swift */; };
+		7BE7A3831DE2F5AE00190231 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A3821DE2F5AE00190231 /* TextViewTableViewCell.swift */; };
+		7BE7A3851DE2F5C700190231 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A3841DE2F5C700190231 /* LabelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7BE7A3711DE2BC6500190231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE7A3741DE2BC6500190231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BE7A3761DE2BC6500190231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE7A37C1DE2BD7000190231 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		7BE7A3801DE2F59500190231 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		7BE7A3821DE2F5AE00190231 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		7BE7A3841DE2F5C700190231 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				7BE7A3671DE2BC6500190231 /* AppDelegate.swift */,
 				7BE7A3691DE2BC6500190231 /* ViewController.swift */,
+				7BE7A37C1DE2BD7000190231 /* AddViewController.swift */,
+				7BE7A3801DE2F59500190231 /* TextFieldTableViewCell.swift */,
+				7BE7A3821DE2F5AE00190231 /* TextViewTableViewCell.swift */,
+				7BE7A3841DE2F5C700190231 /* LabelTableViewCell.swift */,
 				7BE7A36B1DE2BC6500190231 /* Main.storyboard */,
 				7BE7A3711DE2BC6500190231 /* Assets.xcassets */,
 				7BE7A3731DE2BC6500190231 /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				7BE7A3701DE2BC6500190231 /* DynamicView.xcdatamodeld in Sources */,
 				7BE7A36A1DE2BC6500190231 /* ViewController.swift in Sources */,
+				7BE7A37D1DE2BD7000190231 /* AddViewController.swift in Sources */,
 				7BE7A3681DE2BC6500190231 /* AppDelegate.swift in Sources */,
+				7BE7A3851DE2F5C700190231 /* LabelTableViewCell.swift in Sources */,
+				7BE7A3811DE2F59500190231 /* TextFieldTableViewCell.swift in Sources */,
+				7BE7A3831DE2F5AE00190231 /* TextViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
