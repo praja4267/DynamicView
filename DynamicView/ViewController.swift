@@ -20,7 +20,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         reportsListTableView.delegate = self
         reportsListTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: identifierString)
         reportsListTableView.tableFooterView=UIView(frame: CGRectZero)
-       
         // Do any additional setup after loading the view, typically from a nib.
     }
 

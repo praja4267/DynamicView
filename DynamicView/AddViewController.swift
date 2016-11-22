@@ -84,7 +84,6 @@ class AddViewController: UIViewController, UITableViewDelegate, UITableViewDataS
                 cell1.textfiled.delegate = self
                 if (responseArray[indexPath.row]["type"] as! String == "number") {
                     cell1.textfiled.keyboardType = UIKeyboardType.NumberPad
-                    cell1.textfiled.backgroundColor = UIColor.cyanColor()
                 }else{
                    cell1.textfiled.keyboardType = UIKeyboardType.Alphabet
                 }
@@ -93,15 +92,15 @@ class AddViewController: UIViewController, UITableViewDelegate, UITableViewDataS
                 
                 let cell2 : TextViewTableViewCell = tableView.dequeueReusableCellWithIdentifier("TextViewTableViewCell", forIndexPath: indexPath) as! TextViewTableViewCell
                 cell2.labelForTextView.text = responseArray[indexPath.row]["field-name"] as? String
-                cell2.labelForTextView.backgroundColor = UIColor.magentaColor()
                 cell2.multiLineTextView.delegate=self
                 cell2.multiLineTextView.tag = (responseArray[indexPath.row]["unique_id"] as? Int)! - 1
-                cell2.labelForTextView.backgroundColor = UIColor.redColor()
+                cell2.labelForTextView.backgroundColor = UIColor.orangeColor()
                 self.addDoneButtonOnKeyboard(cell2.multiLineTextView)
                 return cell2
             } else if(responseArray[indexPath.row]["type"] as! String == "dropdown"){
                 let cell3 : LabelTableViewCell = tableView.dequeueReusableCellWithIdentifier("LabelTableViewCell", forIndexPath: indexPath) as! LabelTableViewCell
                 cell3.labelForTVCell.text = responseArray[indexPath.row]["field-name"] as? String
+                cell3.labelForTVCell.backgroundColor = UIColor.orangeColor()
                 cell3.valueLabel.text = selectedString
                 cell3.valueLabel.tag = (responseArray[indexPath.row]["unique_id"] as? Int)! - 1
                 PassingArray[(responseArray[indexPath.row]["unique_id"] as? Int)! - 1] = selectedString
